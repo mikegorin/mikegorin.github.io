@@ -20,108 +20,131 @@
 
 <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-primary">
-        <a class="navbar-brand" href="#">
-            <img src="./assets/books.png" width="30" height="30" class="d-inline-block align-top" alt=""> Mike Gorin
-        </a>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!-- <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-            </ul>
-        </div> -->
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/books.png" width="30" height="30" class="d-inline-block align-top" alt=""> Mike Gorin
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about/index.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
-    <main role="main">
-        <!-- Main jumbotron for a primary marketing message or call to action -->
-        <div class="jumbotron">
-            <div class="container">
+    <!-- Page Content -->
+    <main role="main" class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <h1 class="display-4 heading">
+                    Mike Gorin
+                    <small class="text-muted">East Bay Tutor</small>
+                </h1>
                 <div class="row">
-                    <div class="col-lg-8">
-                        <h1 class="display-4 heading">
-                            Mike Gorin
-                            <small class="text-muted">East Bay Tutor</small>
-                        </h1>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <p class="h5 text-center">Specialty Subjects</p>
-                                <ul class="list-group-flush">
-                                    <li class="list-group-item">French</li>
-                                    <li class="list-group-item">History</li>
-                                    <li class="list-group-item">Reading & Comprehension</li>
-                                    <li class="list-group-item">General Science</li>
-                                    <li class="list-group-item">Writing</li>
-                                </ul>
-                            </div>
-                            <div class="col-md-6">
-                                <p class="h5 text-center">Learning Skills</p>
-                                <ul class="list-group-flush">
-                                    <li class="list-group-item">College Admissions Advising</li>
-                                    <li class="list-group-item">College Essay Coaching</li>
-                                    <li class="list-group-item">Homework Coaching</li>
-                                    <li class="list-group-item">Organizational & Study Skills</li>
-                                </ul>
-                            </div>
-                        </div>
+                    <div class="col-md-6">
+                        <p class="h5 text-center">Specialty Subjects</p>
+                        <ul class="list-group-flush">
+                            <li class="list-group-item">French</li>
+                            <li class="list-group-item">History</li>
+                            <li class="list-group-item">Reading & Comprehension</li>
+                            <li class="list-group-item">General Science</li>
+                            <li class="list-group-item">Writing</li>
+                        </ul>
                     </div>
-                    <div class="col-lg-4 align-self-center">
-                        <img class="img-fluid" src="./assets/book-and-earth.png" />
+                    <div class="col-md-6">
+                        <p class="h5 text-center">Learning Skills</p>
+                        <ul class="list-group-flush">
+                            <li class="list-group-item">College Admissions Advising</li>
+                            <li class="list-group-item">College Essay Coaching</li>
+                            <li class="list-group-item">Homework Coaching</li>
+                            <li class="list-group-item">Organizational & Study Skills</li>
+                        </ul>
                     </div>
                 </div>
+            </div>
+            <div class="col-lg-4 align-self-center">
+                <img class="img-fluid" src="./assets/book-and-earth.png" />
             </div>
         </div>
 
-        <hr>
+        <!-- Call to Action Well -->
+        <div class="card text-white bg-secondary my-4 text-center">
+            <div class="card-body">
+                <p class="text-white m-0">Tutoring elementary, middle, and high school students in the East Bay, Lamorinda, and 680 Corridor since
+                    2015!
+                </p>
+            </div>
+        </div>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4  align-self-center">
-                    <h2>As Featured In...</h2>
-                    <img class="img-fluid" src="./assets/berkeley-parents-network.png" />
-                </div>
-                <div class="col-md-4">
-                    <h4>Ages</h4>
-                    <ul class="list">
-                        <li class="list-item">
-                            Elementary school
-                        </li>
-                        <li class="list-item">
-                            Middle school
-                        </li>
-                        <li class="list-item">
-                            High school
-                        </li>
-                    </ul>
-                    <h4>Regions Served</h4>
-                    <ul class="list">
-                        <li class="list-item">
-                            East Bay
-                        </li>
-                        <li class="list-item">
-                            Lamorinda
-                        </li>
-                        <li class="list-item">
-                            680 Corridor
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-4 align-self-center">
-                    <h2>Contact</h2>
-                    <p class="h3 text-center">Phone number:</p>
-                    <p class="h5 text-center">(925) 323 - 8456</p>
-                    <p class="h3 text-center">Email address:</p>
-                    <p class="h5 text-center">sfeastbaytutor@gmail.com</p>
+        <!-- Content Row -->
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h2 class="card-title">For All Ages</h2>
+                        <p class="card-text">My best qualities as a tutor are that I am very patient, have a good sense of humor, and possess
+                            an empathic nature. </p>
+                        <p class="card-text">I am happy to meet you at your home, a library, or other place conducive to learning.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="./about/index.html" class="btn btn-primary">Learn More About Me</a>
+                    </div>
                 </div>
             </div>
+            <!-- /.col-md-4 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h2 class="card-title">Contact</h2>
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <p class="h3 text-center">Phone number:</p>
+                                <p class="h5 text-center">(925) 323 - 8456</p>
+                            </li>
+                            <li class="list-group-item">
+                                <p class="h3 text-center">Email address:</p>
+                                <p class="h5 text-center">sfeastbaytutor@gmail.com</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- /.col-md-4 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h2 class="card-title">As Featured In...</h2>
+                        <a href="https://www.berkeleyparentsnetwork.org/" target="_blank" class="thumbnail d-flex justify-content-center align-middle">
+                            <img src="./assets/berkeley-parents-network.png" class="img-fluid" alt="Responsive image">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- /.col-md-4 -->
+
+        </div>
+        <!-- /.row -->
     </main>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-2 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Mike Gorin 2018</p>
+        </div>
+        <!-- /.container -->
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
